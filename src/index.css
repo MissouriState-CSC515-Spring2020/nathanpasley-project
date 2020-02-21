@@ -1,0 +1,21 @@
+.photo {
+    display: block;
+    /*top | right | bottom | left*/
+    margin: 5% auto 5% auto;
+    height: 30%;
+    width: 30%;
+}
+.photo:hover {   
+    cursor: pointer;
+    transform: scale(1.10);
+    transition: all 0.3s ease-in-out;
+}
+body {
+    background-color: lightgrey;
+}
+h1 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 1000;
+}
