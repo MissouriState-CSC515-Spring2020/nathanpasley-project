@@ -13,10 +13,10 @@ npm install
 
 ## Requirements for this Checkpoint
 
- 1. Choose, configure and setup a single page application javascript framework for your project.
- 2. Configure a router to handle different URLs for each of your pages.
- 2. Convert the static HTML and CSS from checkpoint 2 into components from your framework.
- 
+ 1. Your project should meet the core requirements of the progressive web application checklist including working offline and being installable.
 
 ## Run Commands 
-`npm start` starts a local development server.  Navigate to [localhost:3000](http://localhost:3000).  
+`npm start` starts a local development server.  
+Navigate to [localhost:3000](http://localhost:3000).  
+`serve -s build` builds the application.  
+Navigate to [localhost:5000](http://localhost:5000).
