@@ -1,6 +1,6 @@
 # Repository for class project
 ## Overview
-This repo contains a single page application for a photo gallery. This will be a collection of a user's photos and have pages for categories, collections or tags as well as a page for details on an individual photo. This Project is using the JavaScript Framework **React** to create a single page application.
+This repo contains a single page application for a photo gallery. This will be a collection of a user's photos and have pages for categories, collections or tags as well as a page for details on an individual photo. This Project is using the JavaScript Framework **React** to create a single page application. This application will be a **Progressive Web Application** (PWA).
 
 ## Getting Started
 Clone this repository and install its dependencies:
