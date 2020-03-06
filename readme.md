@@ -16,5 +16,5 @@ npm install
  1. Your project should meet the core requirements of the progressive web application checklist including working offline and being installable.
 
 ## Run Commands
-`serve -s build` builds the application.  
+`serve -s build` starts a static server.  
 Navigate to [localhost:5000](http://localhost:5000).
