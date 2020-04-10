@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","sources":["../src/spanText.js"],"sourcesContent":["var span = document.querySelector('#text');\r\n\r\nexport default function spanText() {\r\n    span.textContent = \"Recent Photos\";\r\n}\r\n"],"names":["document","querySelector","textContent"],"mappings":"yBAAWA,SAASC,cAAc,SAGzBC,YAAc"}
