@@ -3,14 +3,14 @@ import React, { Component } from 'react';
 // Uses the search (keywords) component of the API
 const API = 'AIzaSyAT-j6pXcvc6fJOKNYPNWrxdOA2n3DzCQQ';
 const result = 5;
-const topic = "penquins planet earth";
+const topic = "monkeys planet earth";
 
 //https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=penquins&key=[YOUR_API_KEY]
 
 
 var finalURL = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=${result}&q=${topic}&key=${API}`;
 
-class Penquin extends Component {
+class Monkey extends Component {
 
     constructor(props){
         super(props);
@@ -43,7 +43,7 @@ class Penquin extends Component {
         return (
             <div className="main container-fluid">
                 <div className="page-header">
-                    <h1>Penquin Videos</h1>
+                    <h1>Monkey Videos</h1>
                 </div> 
                 {
                     this.state.resultyt.map((link, i) => {
@@ -58,4 +58,4 @@ class Penquin extends Component {
     }
 }
 
-export default Penquin;
+export default Monkey;
