@@ -1,6 +1,6 @@
 # Repository for class project
 ## Overview
-This repo contains a single page application for a photo gallery. This will be a collection of a user's photos and have pages for categories, collections or tags as well as a page for details on an individual photo.
+This application contains calls to the Youtube API for video content.
 
 ## Getting Started
 Clone this repository and install its dependencies:
@@ -13,9 +13,8 @@ npm install
 
 ## Requirements for this Checkpoint
 
- 1. Choose, configure and setup a single page application javascript framework for your project.
- 2. Configure a router to handle different URLs for each of your pages.
- 2. Convert the static HTML and CSS from checkpoint 2 into components from your framework.
+1. Your project should only load the initial view. As the user navigates to other pages, JavaScript for the other views should load on demand. Remember to use the import() command to code split.
+2. Ensure your project still meets the PWA requirements after this change.
  
 
 ## Run Commands 
