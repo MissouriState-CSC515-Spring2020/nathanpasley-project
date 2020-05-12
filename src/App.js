@@ -7,7 +7,10 @@ import './index.css';
 import NavBar from './components/navbar';
 import Home from './components/home';
 import Penquin from './components/penquins';
-import Details from './components/details';
+import Monkey from './components/monkeys';
+import Tiger from './components/tigers';
+
+
 
 function App() {
   return (
@@ -16,7 +19,8 @@ function App() {
         <NavBar/>
         <Route exact path="/" component={Home}/>
         <Route path="/penquins" component={Penquin}/>
-        <Route path="/details" component={Details}/>
+        <Route path="/monkeys" component={Monkey}/>
+        <Route path="/tigers" component={Tiger}/>
       </div>
     </BrowserRouter>
   );

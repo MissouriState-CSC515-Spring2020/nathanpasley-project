@@ -1,6 +1,6 @@
 # Repository for class project
 ## Overview
-This repo contains a single page application for a photo gallery. This will be a collection of a user's photos and have pages for categories, collections or tags as well as a page for details on an individual photo. This Project is using the JavaScript Framework **React** to create a single page application. This application will be a **Progressive Web Application** (PWA).
+This repo contains a single page application for a video application. This will be a collection of videos fetched using the youtube API.
 
 ## Getting Started
 Clone this repository and install its dependencies:
@@ -13,7 +13,9 @@ npm install
 
 ## Requirements for this Checkpoint
 
- 1. Your project should meet the core requirements of the progressive web application checklist including working offline and being installable.
+ 1. Your project should dynamically list video information by calling the YouTube data api on all views.
+   You can hard code an initial selector such as a channel id, playlist or search term.
+ 
 
 ## Run Commands 
-`npm start` starts a local development server.  Navigate to [localhost:5000](http://localhost:5000).  
+`npm start` starts a local development server.  Navigate to [localhost:3000](http://localhost:3000).  
